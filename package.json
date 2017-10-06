@@ -1,0 +1,48 @@
+{
+  "name": "cointrading-ninja-taxes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "istanbul test _mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/cryptoalers/cointrading-ninja-taxes"
+  },
+  "dependencies": {
+    "admin": "^1.4.0",
+    "admin-plugin-config": "^1.0.0",
+    "admin-plugin-environment": "^1.0.0",
+    "admin-plugin-healthcheck": "^1.1.0",
+    "admin-plugin-index": "^1.1.1",
+    "admin-plugin-measured": "^1.0.0",
+    "admin-plugin-profile": "^1.1.0",
+    "admin-plugin-report": "^1.0.1",
+    "admin-plugin-terminate": "^1.0.0",
+    "bitcoinjs-lib": "^3.2.0",
+    "compression": "^1.7.0",
+    "event-loop-lag": "^1.3.0",
+    "express": "^4.15.5",
+    "express-request-proxy": "^2.0.0",
+    "measured": "^1.1.0",
+    "memory-cache-stream": "^1.2.0",
+    "moment": "^2.18.1",
+    "redis-js": "^0.1.2",
+    "redis-streams": "^1.1.0",
+    "superagent": "^3.6.3",
+    "ws": "^3.2.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-sinon": "^2.8.1",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "nock": "^9.0.22",
+    "sinon": "^4.0.1",
+    "sinon-chai": "^2.14.0"
+  }
+}
