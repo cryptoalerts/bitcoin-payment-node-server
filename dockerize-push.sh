@@ -1,3 +1,5 @@
-docker build -t cointrading-ninja .
-docker tag cointrading-ninja jverhoelen/cointrading-ninja
-docker push jverhoelen/cointrading-ninja
+#!/usr/bin/env bash
+
+docker build -t bitcoin-payment-node-server .
+docker tag bitcoin-payment-node-server jverhoelen/bitcoin-payment-node-server
+docker push jverhoelen/bitcoin-payment-node-server
