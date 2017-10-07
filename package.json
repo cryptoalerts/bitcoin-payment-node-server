@@ -27,10 +27,7 @@
     "express": "^4.15.5",
     "express-request-proxy": "^2.0.0",
     "measured": "^1.1.0",
-    "memory-cache-stream": "^1.2.0",
     "moment": "^2.18.1",
-    "redis-js": "^0.1.2",
-    "redis-streams": "^1.1.0",
     "superagent": "^3.6.3",
     "ws": "^3.2.0"
   },

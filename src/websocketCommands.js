@@ -22,7 +22,7 @@ const api = {
                     startPaymentProcess(ws)
                     break
                 case 'checkStatus':
-                    checkPaymentStatus(ws)
+                    api.checkPaymentStatus(ws)
                     break
                 case 'restore':
                     tryPaymentRestore(ws, command)
@@ -39,7 +39,7 @@ const api = {
         let clientsPaymentInfo = ws.payment
 
         if (clientsPaymentInfo && !ws.paymentFinished) {
-            addCachedPayment(clientsPaymentInfo.publicKey, clientsPaymentInfo)
+            api.addCachedPayment(clientsPaymentInfo.publicKey, clientsPaymentInfo)
             console.log(`Client with payment info ${clientsPaymentInfo.publicKey} terminates`)
         } else {
             console.log(`Client terminated. ${ws.paymentFinished ? 'Finished payment' : 'Payment was not finished'}`)
